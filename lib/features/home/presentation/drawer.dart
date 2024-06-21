@@ -3,6 +3,7 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:tourism_app/features/home/presentation/transport/transport.dart';
 import 'package:tourism_app/features/svscreen/TourismType.dart';
 import 'package:tourism_app/features/svscreen/aboutus.dart';
+import 'package:tourism_app/features/svscreen/logup.dart';
 
 class NavDrawer extends StatelessWidget {
   const NavDrawer({super.key});
@@ -32,7 +33,7 @@ class NavDrawer extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      'gamila_hesham',
+                      'gamilaeladay',
                       style: TextStyle(
                           fontSize: 16,
                           fontWeight: FontWeight.w600,
