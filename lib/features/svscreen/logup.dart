@@ -209,7 +209,7 @@ class _signupState extends State<signup> {
                     ),
                     prefixIcon: Icon(
                       Icons.call,
-                      color: Color(0xFF6C3428),
+                      color: Color(0xffBE8C63),
                     ),
                     //border: OutlineInputBorder()
                   ),

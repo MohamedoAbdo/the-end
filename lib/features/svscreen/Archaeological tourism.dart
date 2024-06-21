@@ -153,7 +153,7 @@ class _ArchaeologicalState extends State<Archaeological> {
                             children: [
                               Stack(children: [
                                 Image.asset(
-                                  'assets/image/Group 115943.png',
+                                  'assets/image/Group 115941.png',
                                   height:
                                       MediaQuery.of(context).size.height * .25,
                                   width:
@@ -184,7 +184,7 @@ class _ArchaeologicalState extends State<Archaeological> {
                                     child: Column(
                                       children: [
                                         Text(
-                                          S.of(context).Muhammad_Ali_Mosque,
+                                          S.of(context).Abu_Simbel,
                                           textAlign: TextAlign.center,
                                           style: TextStyle(
                                             color: Color(0xFFE4D1B9),
@@ -206,7 +206,7 @@ class _ArchaeologicalState extends State<Archaeological> {
                   Row(
                     children: [
                       Text(
-                        "  ",
+                        "      ",
                       )
                     ],
                   ),
@@ -225,7 +225,7 @@ class _ArchaeologicalState extends State<Archaeological> {
                             children: [
                               Stack(children: [
                                 Image.asset(
-                                  'assets/image/Group 115953.png',
+                                  'assets/image/Group 115951.png',
                                   height:
                                       MediaQuery.of(context).size.height * .25,
                                   width:
@@ -256,7 +256,7 @@ class _ArchaeologicalState extends State<Archaeological> {
                                     child: Column(
                                       children: [
                                         Text(
-                                          S.of(context).Khan,
+                                          S.of(context).Dendera,
                                           textAlign: TextAlign.center,
                                           style: TextStyle(
                                             color: Color(0xFFE4D1B9),
@@ -306,7 +306,7 @@ class _ArchaeologicalState extends State<Archaeological> {
                             children: [
                               Stack(children: [
                                 Image.asset(
-                                  'assets/image/Group 115963.png',
+                                  'assets/image/Group 115961.png',
                                   height:
                                       MediaQuery.of(context).size.height * .25,
                                   width:
@@ -337,7 +337,7 @@ class _ArchaeologicalState extends State<Archaeological> {
                                     child: Column(
                                       children: [
                                         Text(
-                                          S.of(context).RED_MONASTERy,
+                                          S.of(context).pyramids,
                                           textAlign: TextAlign.center,
                                           style: TextStyle(
                                             color: Color(0xFFE4D1B9),
@@ -359,7 +359,7 @@ class _ArchaeologicalState extends State<Archaeological> {
                   Row(
                     children: [
                       Text(
-                        "     ",
+                        "      ",
                       )
                     ],
                   ),
@@ -378,7 +378,7 @@ class _ArchaeologicalState extends State<Archaeological> {
                             children: [
                               Stack(children: [
                                 Image.asset(
-                                  'assets/image/Group 115973.png',
+                                  'assets/image/Group 115971.png',
                                   height:
                                       MediaQuery.of(context).size.height * .25,
                                   width:
@@ -408,14 +408,20 @@ class _ArchaeologicalState extends State<Archaeological> {
                                   child: Container(
                                     child: Column(
                                       children: [
-                                        Text(
-                                          S.of(context).CATHERINE_MONASTERY,
-                                          textAlign: TextAlign.center,
-                                          style: TextStyle(
-                                            color: Color(0xFFE4D1B9),
-                                            fontSize: 12,
-                                            fontWeight: FontWeight.w500,
-                                          ),
+                                        Row(
+                                          mainAxisAlignment:
+                                              MainAxisAlignment.center,
+                                          children: [
+                                            Text(
+                                              S.of(context).Villa_of_Birds,
+                                              textAlign: TextAlign.center,
+                                              style: TextStyle(
+                                                color: Color(0xFFE4D1B9),
+                                                fontSize: 14,
+                                                fontWeight: FontWeight.w500,
+                                              ),
+                                            ),
+                                          ],
                                         ),
                                       ],
                                     ),

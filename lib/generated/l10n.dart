@@ -544,10 +544,10 @@ class S {
     );
   }
 
-  /// `Create  \n  your account..`
+  /// `  Create  \n  your account..`
   String get Create {
     return Intl.message(
-      'Create  \n  your account..',
+      '  Create  \n  your account..',
       name: 'Create',
       desc: '',
       args: [],

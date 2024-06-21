@@ -30,34 +30,8 @@ class _RestaurantsState extends State<Restaurants> {
         child: Column(
           mainAxisSize: MainAxisSize.max,
           children: [
-            Padding(
-              padding: EdgeInsets.only(
-                  top: MediaQuery.of(context).size.height * 0.05),
-              child: InkWell(
-                onTap: () {
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => Search()));
-                },
-                child: Row(
-                  children: [
-                    Row(
-                      children: [
-                        Text(
-                          "     ",
-                        )
-                      ],
-                    ),
-                    Icon(
-                      Icons.arrow_back_ios,
-                      color: Color(0xFF6C3428),
-                      size: 30,
-                    ),
-                  ],
-                ),
-              ),
-            ),
             SizedBox(
-              height: MediaQuery.of(context).size.height * .04,
+              height: MediaQuery.of(context).size.height * .07,
             ),
             Row(
               children: [

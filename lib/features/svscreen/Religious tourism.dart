@@ -129,6 +129,7 @@ class _ReligioustourismState extends State<Religioustourism> {
               SizedBox(
                 height: MediaQuery.of(context).size.height * .02,
               ),
+              //
               Row(
                 children: [
                   Row(
@@ -153,7 +154,7 @@ class _ReligioustourismState extends State<Religioustourism> {
                             children: [
                               Stack(children: [
                                 Image.asset(
-                                  'assets/image/Group 115941.png',
+                                  'assets/image/Group 115943.png',
                                   height:
                                       MediaQuery.of(context).size.height * .25,
                                   width:
@@ -184,7 +185,7 @@ class _ReligioustourismState extends State<Religioustourism> {
                                     child: Column(
                                       children: [
                                         Text(
-                                          S.of(context).Abu_Simbel,
+                                          S.of(context).Muhammad_Ali_Mosque,
                                           textAlign: TextAlign.center,
                                           style: TextStyle(
                                             color: Color(0xFFE4D1B9),
@@ -206,7 +207,7 @@ class _ReligioustourismState extends State<Religioustourism> {
                   Row(
                     children: [
                       Text(
-                        "      ",
+                        "  ",
                       )
                     ],
                   ),
@@ -225,7 +226,7 @@ class _ReligioustourismState extends State<Religioustourism> {
                             children: [
                               Stack(children: [
                                 Image.asset(
-                                  'assets/image/Group 115951.png',
+                                  'assets/image/Group 115953.png',
                                   height:
                                       MediaQuery.of(context).size.height * .25,
                                   width:
@@ -256,7 +257,7 @@ class _ReligioustourismState extends State<Religioustourism> {
                                     child: Column(
                                       children: [
                                         Text(
-                                          S.of(context).Dendera,
+                                          S.of(context).Khan,
                                           textAlign: TextAlign.center,
                                           style: TextStyle(
                                             color: Color(0xFFE4D1B9),
@@ -306,7 +307,7 @@ class _ReligioustourismState extends State<Religioustourism> {
                             children: [
                               Stack(children: [
                                 Image.asset(
-                                  'assets/image/Group 115961.png',
+                                  'assets/image/Group 115963.png',
                                   height:
                                       MediaQuery.of(context).size.height * .25,
                                   width:
@@ -337,7 +338,7 @@ class _ReligioustourismState extends State<Religioustourism> {
                                     child: Column(
                                       children: [
                                         Text(
-                                          S.of(context).pyramids,
+                                          S.of(context).RED_MONASTERy,
                                           textAlign: TextAlign.center,
                                           style: TextStyle(
                                             color: Color(0xFFE4D1B9),
@@ -359,7 +360,7 @@ class _ReligioustourismState extends State<Religioustourism> {
                   Row(
                     children: [
                       Text(
-                        "      ",
+                        "     ",
                       )
                     ],
                   ),
@@ -378,7 +379,7 @@ class _ReligioustourismState extends State<Religioustourism> {
                             children: [
                               Stack(children: [
                                 Image.asset(
-                                  'assets/image/Group 115971.png',
+                                  'assets/image/Group 115973.png',
                                   height:
                                       MediaQuery.of(context).size.height * .25,
                                   width:
@@ -408,20 +409,14 @@ class _ReligioustourismState extends State<Religioustourism> {
                                   child: Container(
                                     child: Column(
                                       children: [
-                                        Row(
-                                          mainAxisAlignment:
-                                              MainAxisAlignment.center,
-                                          children: [
-                                            Text(
-                                              S.of(context).Villa_of_Birds,
-                                              textAlign: TextAlign.center,
-                                              style: TextStyle(
-                                                color: Color(0xFFE4D1B9),
-                                                fontSize: 14,
-                                                fontWeight: FontWeight.w500,
-                                              ),
-                                            ),
-                                          ],
+                                        Text(
+                                          S.of(context).CATHERINE_MONASTERY,
+                                          textAlign: TextAlign.center,
+                                          style: TextStyle(
+                                            color: Color(0xFFE4D1B9),
+                                            fontSize: 12,
+                                            fontWeight: FontWeight.w500,
+                                          ),
                                         ),
                                       ],
                                     ),
@@ -436,6 +431,8 @@ class _ReligioustourismState extends State<Religioustourism> {
                   ),
                 ],
               ),
+              //hkmhcmg
+
               SizedBox(
                 height: MediaQuery.of(context).size.height * .02,
               ),

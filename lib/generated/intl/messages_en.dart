@@ -43,8 +43,8 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Coastal Tourism"),
         "Coastal_text": MessageLookupByLibrary.simpleMessage(
             "comprises recreational activities taking place in the proximity of the sea (such as swimming, sunbathing, coastal walks, and wildlife watching) as well as those taking place in the maritime area, including nautical sports. The stunning coastlines have luxury resorts, off-grid lagoons where you can totally unplug, fantastic diving opportunities in the Red Sea packed with wildlife sightings, and plenty of beaches for relaxing downtime by the Mediterranean."),
-        "Create":
-            MessageLookupByLibrary.simpleMessage("Create  \n  your account.."),
+        "Create": MessageLookupByLibrary.simpleMessage(
+            "  Create  \n  your account.."),
         "Dakrour_Mountain":
             MessageLookupByLibrary.simpleMessage("    Dakrour Mountain"),
         "Dendera": MessageLookupByLibrary.simpleMessage("             Dendera"),
